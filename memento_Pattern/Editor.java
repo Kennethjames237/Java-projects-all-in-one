@@ -6,6 +6,7 @@ public class Editor {
     // Editor(String text){
     // this.Content = text;
     // }
+    
     public void setContent(String cont) {
         this.Content = cont;
     }

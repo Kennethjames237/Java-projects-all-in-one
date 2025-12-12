@@ -1,3 +1,4 @@
+package Strategie;
 public class Client {
     private IBehavior behavior;
     public Client(IBehavior ib){
