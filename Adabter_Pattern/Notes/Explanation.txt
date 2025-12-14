@@ -1,0 +1,23 @@
+Adapter Design Pattern:
+Adapter Design Pattern is a structural pattern that acts as a bridge between two incompatible interfaces,
+allowing them to work together. It is especially useful for integrating legacy code or third-party libraries
+into a new system.
+
+Explain the Diagram:(look at the illustration.png diagarm)
+Client wants to use a Target interface (it calls Request()).
+Adaptee already has useful functionality, but its method (SpecificRequest()) doesn’t match the Target interface.
+Adapter acts as a bridge: it implements the Target interface (Request()), but inside, it calls the Adaptee’s SpecificRequest().
+This allows the Client to use the Adaptee without changing its code.
+
+Uses Of Adapter Design Pattern
+We can use adapter design pattern when:
+Enables communication between incompatible systems.
+Reuses existing code or libraries without rewriting.
+Simplifies integration of new components, keeping the system flexible.
+Centralizes compatibility changes, making maintenance easier and safer.
+
+Below is how adapter design pattern works:
+Step 1: The client initiates a request by calling a method on the adapter via the target interface.
+Step 2: The adapter maps or transforms the client's request into a format that the adaptee can understand using the adaptee's interface.
+Step 3: The adaptee does the actual job based on the translated request from the adapter.
+Step 4: The client receives the results of the call, remaining unaware of the adapter's presence or the specific details of the adaptee.
