@@ -10,7 +10,7 @@
 			manuali utente
 			Diagrammi (UML, architettura, flussi)
 			File di configurazione
-In software design we have some maggiore design pattern models:
+	In software design we have some maggiore design pattern models:
 	1-Repository model(Blackboard)
 	2-Client - Server model
 	3-Abstract machine model

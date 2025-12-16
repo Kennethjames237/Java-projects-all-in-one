@@ -1,0 +1,9 @@
+# Proxy_design_pattern : < look pastedimage.png >
+	Proxy Design Pattern is a structural design pattern where a proxy object acts as a placeholder to control access to the real object. The client communicates with the proxy, which forwards requests to the real object. The proxy can also provide extra functionality such as access control, lazy initialization, logging, and caching.
+# Real Life Use of Proxy Design Pattern
+ # Virtual proxy for image loading:
+ 		In web browsers or apps, proxies are used to load large images lazily. A placeholder proxy object represents the image and loads the actual image only when needed, improving performance.
+ # Security Proxy for Access Control:
+	Proxies can control access to sensitive resources by checking user permissions before forwarding requests, commonly used in authentication and authorization systems.
+ # Caching Proxy for Expensive Operations:
+	Caching proxies store results of expensive operations (e.g., database queries or API calls) and return cached results for repeated requests, reducing latency and resource consumption.
